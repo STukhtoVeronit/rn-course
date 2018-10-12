@@ -1,4 +1,17 @@
-import { AppRegistry } from 'react-native';
-import App from './App';
+import {Navigation} from "react-native-navigation";
+// import { AppRegistry } from 'react-native';
+import Profiles from './src/Profiles';
 
-AppRegistry.registerComponent('newproject', () => App);
+Navigation.registerComponent(`navigation.newproject.Profiles`, () => Profiles);
+
+// AppRegistry.registerComponent('newproject', () => App);
+
+Navigation.events().registerAppLaunchedListener(() => {
+	Navigation.setRoot({
+		root: {
+			component: {
+				name: "navigation.newproject.Profiles"
+			}
+		}
+	});
+});
