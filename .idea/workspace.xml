@@ -2,15 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac521637-13b3-4e93-a7c0-530ef991bb4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AwesomeProject/src/Generator/ListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwesomeProject/src/Generator/generate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwesomeProject/src/Modal/ModalComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AwesomeProject/src/Picker/picker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwesomeProject/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeProject/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwesomeProject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeProject/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwesomeProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeProject/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/.buckconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/.watchmanconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/java/com/awesomeproject/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/java/com/awesomeproject/MainApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/keystores/BUCK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/keystores/debug.keystore.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject-tvOS/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject-tvOSTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject.xcodeproj/xcshareddata/xcschemes/AwesomeProject-tvOS.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject.xcodeproj/xcshareddata/xcschemes/AwesomeProject.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/Base.lproj/LaunchScreen.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/Images.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProject/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProjectTests/AwesomeProjectTests.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/ios/AwesomeProjectTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Generator/ListItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Generator/generate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Input/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Modal/ModalComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/Picker/picker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/src/assets/images/B17-WHT_1024x1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AwesomeProject/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lasauge.html" beforeDir="false" afterPath="$PROJECT_DIR$/lasauge.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,130 +78,62 @@
     <session id="-1898968723">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="flowconfig" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="1" />
-          <entry key="js" value="55" />
-          <entry key="json" value="8" />
+          <entry key="gradle" value="5" />
+          <entry key="html" value="5" />
+          <entry key="java" value="2" />
+          <entry key="js" value="57" />
+          <entry key="json" value="13" />
+          <entry key="properties" value="2" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="55" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="HTML" value="5" />
+          <entry key="JSON" value="13" />
+          <entry key="JavaScript" value="57" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="70" />
-          <entry key="js" value="4667" />
-          <entry key="json" value="56" />
+          <entry key="gradle" value="14" />
+          <entry key="html" value="82" />
+          <entry key="js" value="4980" />
+          <entry key="json" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="70" />
-          <entry key="JSON" value="56" />
-          <entry key="JavaScript" value="4667" />
+          <entry key="HTML" value="82" />
+          <entry key="JSON" value="63" />
+          <entry key="JavaScript" value="4980" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-              <folding>
-                <element signature="e#29#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/package.json">
+        <entry file="file://$PROJECT_DIR$/lasauge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Modal/ModalComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-              <folding>
-                <element signature="e#46#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Picker/picker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="50" selection-start-line="50" selection-end-line="52" selection-end-column="4" />
-              <folding>
-                <element signature="e#29#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Generator/ListItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding>
-                <element signature="e#29#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Generator/generate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -174,13 +159,22 @@
       <find>getUser</find>
       <find>endpoints</find>
       <find>PickerComponent</find>
+      <find>App</find>
+      <find>Home</find>
+      <find>HomeComponent</find>
+      <find>buildType {</find>
+      <find>defaultCo</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>ModalComponent</replace>
+      <replace>Home</replace>
+      <replace>HomeComponent</replace>
+      <replace>ProfilesComponent</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\projects\rn-course\Test\</dir>
+      <dir>C:\projects\rn-course\AwesomeProject\android</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -210,15 +204,22 @@
         <option value="$PROJECT_DIR$/lesson2/ignite/DevScreens/APITestingScreen.js" />
         <option value="$PROJECT_DIR$/lesson2/App/Navigation/AppNavigation.js" />
         <option value="$PROJECT_DIR$/lesson2/App/Containers/TextalbeScreen.js" />
-        <option value="$PROJECT_DIR$/lasauge.html" />
         <option value="$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/src/Generator/generate.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/src/Generator/ListItem.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/src/Input/input.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/src/Picker/picker.js" />
-        <option value="$PROJECT_DIR$/AwesomeProject/App.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/src/Modal/ModalComponent.js" />
+        <option value="$PROJECT_DIR$/AwesomeProject/App.js" />
+        <option value="$PROJECT_DIR$/AwesomeProject/src/Components/Home.js" />
+        <option value="$PROJECT_DIR$/AwesomeProject/src/Components/Profiles.js" />
         <option value="$PROJECT_DIR$/AwesomeProject/package.json" />
+        <option value="$PROJECT_DIR$/AwesomeProject/android/settings.gradle" />
+        <option value="$PROJECT_DIR$/AwesomeProject/android/build.gradle" />
+        <option value="$PROJECT_DIR$/AwesomeProject/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/AwesomeNav/package.json" />
+        <option value="$PROJECT_DIR$/NavLesson/package.json" />
+        <option value="$PROJECT_DIR$/lasauge.html" />
       </list>
     </option>
   </component>
@@ -235,16 +236,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/AwesomeProject/node_modules" />
+    <handled-path value="$PROJECT_DIR$/newproject/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/AwesomeProject/package.json" />
+      <path value="$PROJECT_DIR$/newproject/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="874" />
+    <option name="width" value="1428" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -253,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,16 +262,10 @@
               <item name="rn-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="rn-course" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rn-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rn-course" type="462c0819:PsiDirectoryNode" />
-              <item name="AwesomeProject" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,17 +303,30 @@
       <workItem from="1538748298560" duration="374000" />
       <workItem from="1538982387115" duration="11293000" />
       <workItem from="1539068735823" duration="3588000" />
-      <workItem from="1539073135035" duration="41339000" />
+      <workItem from="1539073135035" duration="53468000" />
+      <workItem from="1539253372973" duration="13653000" />
+      <workItem from="1539326805837" duration="1651000" />
+      <workItem from="1539328842645" duration="1699000" />
+      <workItem from="1539331030010" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76382000" />
+    <option name="totallyTimeSpent" value="107030000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="874" height="1057" extended-state="0" />
+    <frame x="-7" y="0" width="1428" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2583732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2266187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,7 +338,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32893288" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.6429433" visible="true" weight="0.36633664" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.6429433" visible="true" weight="0.56655663" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3570567" side_tool="true" weight="0.33769062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -343,17 +352,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/node_modules/react-native/Libraries/react-native/react-native.js" />
-    <entry file="file://$PROJECT_DIR$/Test/index.android.js" />
-    <entry file="file://$PROJECT_DIR$/Test/App/Containers/RootContainer.js" />
-    <entry file="file://$PROJECT_DIR$/Test/node_modules/ignite-ir-next/boilerplate/App/Navigation/AppNavigation.js" />
-    <entry file="file://$PROJECT_DIR$/Test/node_modules/ignite-ir-next/boilerplate/App/Containers/LaunchScreen.js" />
-    <entry file="file://$PROJECT_DIR$/Test/App/Fixtures/Content.json" />
-    <entry file="file://$PROJECT_DIR$/Test/node_modules/ignite-ir-next/boilerplate/App/Services/Api.js" />
-    <entry file="file://$PROJECT_DIR$/Test/node_modules/ignite-ir-next/boilerplate/App/Services/FixtureApi.js" />
-    <entry file="file://$PROJECT_DIR$/Test/App/Sagas/GithubSagas.js" />
-    <entry file="file://$PROJECT_DIR$/Test/App/Themes/Colors.js" />
-    <entry file="file://$PROJECT_DIR$/Test/App/Containers/Styles/TestScreenStyle.js" />
     <entry file="file://$PROJECT_DIR$/Test/App/Containers/LaunchScreen.js" />
     <entry file="file://$PROJECT_DIR$/Test/App/Navigation/AppNavigation.js" />
     <entry file="file://$PROJECT_DIR$/Test/node_modules/react-native/ReactAndroid/src/androidTest/java/com/facebook/react/tests/CatalystMultitouchHandlingTestCase.java" />
@@ -363,13 +361,7 @@
     <entry file="file://$PROJECT_DIR$/Test/App/Containers/TestScreen.js" />
     <entry file="file://$PROJECT_DIR$/Test/Tests/Services/FixtureAPITest.js" />
     <entry file="file://$PROJECT_DIR$/carsApp/package.json" />
-    <entry file="file://$PROJECT_DIR$/lesson1/App/Containers/LaunchScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/App/Containers/LaunchScreen.js" />
     <entry file="file://$PROJECT_DIR$/Test/Tests/Redux/GithubReduxTest.js" />
     <entry file="file://$PROJECT_DIR$/Test/Tests/Sagas/GithubSagaTest.js" />
     <entry file="file://$PROJECT_DIR$/Test/Tests/Sagas/StartupSagaTest.js" />
@@ -382,199 +374,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson1/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/App.js">
+    <entry file="file://$PROJECT_DIR$/lesson1/package.json" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/App.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/RootContainer.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/LaunchScreen.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Themes/Colors.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/Styles/ViewStyle.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Fixtures/face.json" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Navigation/ReduxNavigation.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/TextalbeScreen.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Navigation/AppNavigation.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Services/Api.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/ignite/DevScreens/APITestingScreen.js" />
+    <entry file="file://$PROJECT_DIR$/lesson2/App/Services/FixtureApi.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/.flowconfig" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Input/input.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Generator/generate.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Generator/ListItem.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Picker/picker.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Modal/ModalComponent.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Components/Home.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/android/gradle.properties" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/android/app/src/main/java/com/awesomeproject/MainApplication.java" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/android/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/android/gradle/wrapper/gradle-wrapper.properties" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Components/Profiles.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/android/app/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/package.json" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/android/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/App.js" />
+    <entry file="file://$PROJECT_DIR$/AwesomeProject/index.js" />
+    <entry file="file://$PROJECT_DIR$/NavProject/package.json" />
+    <entry file="file://$PROJECT_DIR$/AwesomeNav/package.json" />
+    <entry file="file://$PROJECT_DIR$/NavLesson/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/RootContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/LaunchScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Themes/Colors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/Styles/ViewStyle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Fixtures/face.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="569" column="1" selection-start-line="569" selection-start-column="1" selection-end-line="569" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Navigation/ReduxNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Containers/TextalbeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Navigation/AppNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Services/Api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/ignite/DevScreens/APITestingScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/App/Services/FixtureApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/.flowconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="138">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lasauge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Nav/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Input/input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Generator/generate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Generator/ListItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#29#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Picker/picker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="50" selection-start-line="50" selection-end-line="52" selection-end-column="4" />
-          <folding>
-            <element signature="e#29#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/src/Modal/ModalComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
-          <folding>
-            <element signature="e#46#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-          <folding>
-            <element signature="e#29#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AwesomeProject/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="138">
+          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="58" />
         </state>
       </provider>
     </entry>
