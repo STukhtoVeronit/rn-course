@@ -1,17 +1,14 @@
-import {Navigation} from "react-native-navigation";
-// import { AppRegistry } from 'react-native';
-import Profiles from './src/Profiles';
+			import {Navigation} from 'react-native-navigation';
+import {registerScreens} from './src/screens';
 
-Navigation.registerComponent(`navigation.newproject.Profiles`, () => Profiles);
-
-// AppRegistry.registerComponent('newproject', () => App);
+registerScreens();
 
 Navigation.events().registerAppLaunchedListener(() => {
 	Navigation.setRoot({
 		root: {
 			component: {
-				name: "navigation.newproject.Profiles"
+				name: 'Initializing'
 			}
-		}
+		},
 	});
 });
