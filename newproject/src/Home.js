@@ -44,7 +44,7 @@ class Home extends React.Component {
 	render() {
 		return (
 				<View style={styles.container}>
-					<Text>Hello from Home screen.</Text>
+					<Text>Hello from Home screen. Some test</Text>
 					<Button
 							onPress={this.logout}
 							title="Sign Out"
