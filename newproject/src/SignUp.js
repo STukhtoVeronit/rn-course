@@ -3,25 +3,42 @@ import {
 	View,
 	Button,
 	TextInput,
-	StyleSheet
-} from 'react-native'
+	StyleSheet, AsyncStorage
+} from 'react-native';
+import {addUser} from './actions/userAction';
+import {USER_KEY} from "./config";
+import PropTypes from "prop-types";
+import connect from "react-redux/es/connect/connect";
+import Home from "./Home";
+import {Navigation} from "react-native-navigation";
+import {goToAuth} from "./navigation";
 
-export default class SignUp extends React.Component {
+class SignUp extends React.Component {
 	state = {
-		username: '', password: '', email: '', phone_number: ''
-	}
+		username: '',
+		password: '',
+		email: '',
+		phone_number: ''
+	};
 	onChangeText = (key, val) => {
-		this.setState({ [key]: val })
-	}
+		this.setState({[key]: val})
+	};
 	signUp = async () => {
-		const { username, password, email, phone_number } = this.state
+		const {username, password, email, phone_number} = this.state;
+		const user = {username, password, email, phone_number};
+
 		try {
-			// here place your signup logic
-			console.log('user successfully signed up!: ', success)
+
+			this.props.addUser(user);
+			// const users = await AsyncStorage.getItem(USER_KEY);
+			// await AsyncStorage.setItem(USER_KEY, users.push(user));
+
+			console.log('user successfully signed up!: ');
+			goToAuth();
 		} catch (err) {
 			console.log('error signing up: ', err)
 		}
-	}
+	};
 
 	render() {
 		return (
@@ -64,6 +81,17 @@ export default class SignUp extends React.Component {
 	}
 }
 
+SignUp.propType = {
+	user: PropTypes.object.isRequired,
+	addUser: PropTypes.func.isRequired
+};
+
+const mapStateToProps = state => ({
+	user: state.user,
+});
+
+export default connect(mapStateToProps, {addUser})(SignUp);
+
 const styles = StyleSheet.create({
 	input: {
 		width: 350,
@@ -81,4 +109,4 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center'
 	}
-})
+});

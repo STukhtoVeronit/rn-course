@@ -5,20 +5,29 @@ import {
 	Button,
 	StyleSheet,
 	AsyncStorage
-} from 'react-native'
+} from 'react-native';
+
 import { goToAuth } from './navigation'
-import {Navigation} from 'react-native-navigation';
+import { Navigation } from 'react-native-navigation';
+
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import { USER_KEY } from './config'
 
-export default class Home extends React.Component {
+class Home extends React.Component {
+	constructor(props){
+		super(props);
+		this.state = {
+			users: []
+		}
+	}
 	static get options() {
 		return {
 			topBar: {
 				title: {
 					text: 'Home'
 				},
-
 			}
 		};
 	}
@@ -54,6 +63,17 @@ export default class Home extends React.Component {
 		)
 	}
 }
+
+Home.propType = {
+	profile: PropTypes.object.isRequired,
+	getProfileByHandle: PropTypes.func.isRequired
+};
+
+const mapStateToProps = state => ({
+	user: state.user
+});
+
+export default connect(mapStateToProps, {})(Home);
 
 const styles = StyleSheet.create({
 	container: {
